@@ -14,7 +14,7 @@ def make_snippet(words):
     else: 
         # split string to list of five words
         # join the list of words
-        # concatenate the '...' to the string 
+        # concatenate '...' to the string 
         split_words_first_five = words.split()[:5]
         sentence = " ".join(split_words_first_five)
         append_sentence = sentence + " ..."
